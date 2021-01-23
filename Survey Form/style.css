@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+body {
+  background-image: url("background.jpg");
+  font-family: "Spartan", sans-serif;
+  font-size: large;
+}
+h1,
+p {
+  text-align: center;
+}
+form {
+  background-color: #cc66ff;
+  border-radius: 1%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#dropdown2 {
+  padding-right: 450px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+#number {
+  padding-right: 560px;
+}
+
+#dropdown {
+  padding-right: 537px;
+}
+
+#dropdown2 {
+  padding-right: 547px;
+}
+
+#comments {
+  padding-right: 445px;
+}
+
+.check {
+  padding: 5px, 5px;
+}
+
+#submit {
+  background-color: #800033;
+  border: none;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 300px;
+  padding-right: 325px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+::placeholder {
+  font-family: "Rubik", sans-serif;
+  color: #c2c2a3;
+}
